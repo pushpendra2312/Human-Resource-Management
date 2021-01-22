@@ -1,0 +1,6 @@
+frontend/node_modules
+frontend/hrm/node_modules
+backend/cors
+backend/node_modules
+frontend/hrm/README.md
+frontend/hrm/.gitignore

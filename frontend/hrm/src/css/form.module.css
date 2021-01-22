@@ -1,0 +1,42 @@
+.formalignment {
+  display: flex;
+  flex-direction: column;
+  margin: 5% auto;
+  padding-top: 1;
+  width: 50%;
+}
+.submits {
+  margin-top: 15px;
+  max-width: 150px;
+}
+@media (max-width: 500px) {
+  .formalignment {
+    width: 80%;
+  }
+  .child {
+    margin: 0% auto;
+  }
+  .submits {
+  }
+}
+
+.child {
+  /* margin: 0% auto; */
+  margin: 0;
+}
+.backgrnd {
+  background-color: aqua;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  /* justify-content: center; */
+}
+.label {
+  margin: 10px 3px 1px 3px;
+}
+
+.center {
+  margin: auto 35%;
+  /* width: 40%; */
+}
